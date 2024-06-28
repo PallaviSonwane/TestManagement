@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import com.exam.model.Exam;
 import com.exam.repository.ExamRepository;
-
 import lombok.extern.slf4j.Slf4j;
 
 @Service
@@ -51,6 +50,7 @@ public class ExamServiceImp implements ExamService{
         }
     }
 
+    //detele question from database
     @Override
     public ResponseEntity<?> deleteQuestion(int question_id) {
         boolean exists = examRepository.existsById(question_id);
@@ -64,19 +64,15 @@ public class ExamServiceImp implements ExamService{
         }
     }
 
+    //update question from database
     @Override
-public boolean updateQuestion(int question_id, Exam updatedExam) {
-    Optional<Exam> exist = examRepository.findById(question_id);
     
-    if (exist.isPresent()) {
-        Exam existingExam = exist.get();
-        
-        // Update the fields of existingExam with the new values from updatedExam
-        existingExam.setQuestion(updatedExam.getQuestion());
-        // Update other fields as needed
-        
+public boolean updateQuestion(int question_id, Exam updatedExam) {
+    boolean exist = examRepository.existsById(question_id);
+    
+    if (exist) {
         try {
-            examRepository.save(existingExam);
+            examRepository.save(updatedExam);
             return true;
         } catch (Exception ex) {
             return false;

@@ -29,6 +29,7 @@ public class ExamController {
 
     @PostMapping("/addQuestion")
     public void addQuestions(@RequestBody Exam exam){
+        System.out.println(exam);
         boolean b=service.addQuestion(exam);
        System.out.println( b?"data save properly ":"data not save");
     }
@@ -52,7 +53,7 @@ public class ExamController {
     @PutMapping("/updateById/{question_id}")
      public void updateQuestion(@PathVariable int question_id,@RequestBody Exam exam){
             boolean b=service.updateQuestion(question_id, exam);
-            System.out.println(b?"update":"notttt");
+            System.out.println(b?"update question":"Not Update some problem is there");
     }
     
 }
