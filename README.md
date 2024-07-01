@@ -24,10 +24,16 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/pallaviSonwane/testmanagement-api.git
+  ## Clone the Repository
 
-    cd testmanagement-api
+To get a local copy of this repository, use the following command:
+
+```bash
+git clone https://github.com/pallaviSonwane/testmanagement-api.git
+
+
+cd testmanagement-api
+
    
 1. **Set up the database:**
    
