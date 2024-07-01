@@ -26,17 +26,18 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/pallaviSonwane/testmanagement-api.git
-   cd testmanagement-api
+
+    cd testmanagement-api
    
-2. **Set up the database:**
+1. **Set up the database:**
    
    Ensure you have PostgreSQL installed locally or configure your database settings in application.properties.
 
-3. **Build and run the application:**
+2. **Build and run the application:**
     ```bash
    ./mvnw spring-boot:run
 
-4. **Access the API endpoints:**
+3. **Access the API endpoints:**
 
   Once the application is running, you can access the API using tools like Postman.
 
