@@ -22,11 +22,16 @@ This project implements an API for managing multiple-choice questions (MCQs) usi
 
 To run this project locally, follow these steps:
 
-1. **Clone the Repository:**
+1. ## Clone the Repository
 
-   ```bash
-   git clone https://github.com/pallaviSonwane/testmanagement-api.git
-   cd testmanagement-api
+To clone the repository, use the following command:
+
+```bash
+git clone https://github.com/pallaviSonwane/testmanagement-api.git
+
+cd testmanagement-api
+
+
    
 1. **Set up the database:**
    
