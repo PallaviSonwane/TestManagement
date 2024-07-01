@@ -30,6 +30,7 @@ To get a local copy of this repository, use the following command:
 
 ```bash
 git clone https://github.com/pallaviSonwane/testmanagement-api.git
+cd testmanagement-api
    
 1. **Set up the database:**
    
