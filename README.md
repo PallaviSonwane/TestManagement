@@ -56,14 +56,16 @@ To run this project locally, follow these steps:
 ### Category Management
 
 - **Add Category:**
-  
-  Example Request Body:
-```json
-{
-  "categoryName": "Science",
-  "categoryDescription": "Topics related to scientific disciplines"
-}
 
+1. **Create Category:**
+
+    ```bash
+    POST /category/addCategory
+    ```bash
+    {
+    "categoryName": "Science",
+    "categoryDescription": "Topics related to scientific disciplines"
+    }
 
 1. **Create MCQ Question:**
 
