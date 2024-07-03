@@ -63,8 +63,8 @@ To run this project locally, follow these steps:
     Request Body:
     ```bash
     {
-    "categoryName": "Science",
-    "categoryDescription": "Topics related to scientific disciplines"
+    "categoryName": "Java",
+    "categoryDescription": "Core Java category"
     }
     ```
     
@@ -99,8 +99,8 @@ To run this project locally, follow these steps:
    Request Body:
    ```bash
    {
-  "subCategoryName": "Physics",
-  "subCategoryDis": "Branch of science concerned with the nature and properties of matter and energy"
+  "subCategoryName": "Exception Handling",
+  "subCategoryDis": "Exception Handling from Java"
   }
   ```
 
@@ -128,49 +128,22 @@ To run this project locally, follow these steps:
   PUT /subCategory/updateSubCategory/21
   ```
 
+### Exam Management
+
+1. **Upload Excel Data**
+
+   ```bash
+   POST /exam/upload
+   ```
+
+   ```bash
+   {
+    "file": "<Excel File>"
+  }
+
+
   
-
-1. **Create MCQ Question:**
-
-   ```bash
-   POST /exam/addQuestion
-   Request Body:
-   ```bash
-   {
-  "question_id": 1,
-  "question_text": "What is the capital of France?",
-  "options": ["Paris", "London", "Berlin"],
-  "correct_answer": "Paris"
-  }
-
-
-2. **Get All Questions:**
-
-   ```bash
-   GET /exam/viewQuestion
-
-3. **Update Question:**
-
-   ```bash
-   PUT /exam/updateById/{question_id}
-   Request Body:
-   ```bash
-   {
-  "question_text": "What is the capital of Germany?",
-  "options": ["Paris", "London", "Berlin"],
-  "correct_answer": "Berlin"
-  }
-
-
-4. **Get Question by ID:**
-
-     ```bash
-     GET /exam/viewById/{question_id}
-     
-5. **Delete Question:**
-
-   ```bash
-   DELETE /exam/deleteById/{question_id}
+   
 
 ## Logging
 
