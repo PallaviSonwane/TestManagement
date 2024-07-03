@@ -197,6 +197,14 @@ To run this project locally, follow these steps:
     PUT /exam/updateById/6
     ```
 
+
+### Swagger UI
+
+To interact with the API endpoints directly from the documentation, you can use the Swagger UI.
+
+![Swagger UI](https://your-api-url/swagger-ui.html)
+
+
 ## Logging
 
 SLF4J is used for logging. Logs are available to track requests, errors, and other important information.
