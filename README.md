@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
 
 ## API Endpoints
 
-### Category Management
+-**Category Management**
 
 1. **Add Category:**
 
@@ -86,6 +86,7 @@ To run this project locally, follow these steps:
    PUT /category/updateCategoryById/4
 
 
+-**Subcategory Management**
 
 1. **Create MCQ Question:**
 
