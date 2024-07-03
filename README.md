@@ -50,7 +50,12 @@ To run this project locally, follow these steps:
 
   Once the application is running, you can access the API using tools like Postman.
 
+
 ## API Endpoints
+
+### Category Management
+
+- **Add Category:**
 
 1. **Create MCQ Question:**
 
