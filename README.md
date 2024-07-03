@@ -102,6 +102,7 @@ To run this project locally, follow these steps:
   "subCategoryName": "Exception Handling",
   "subCategoryDis": "Exception Handling from Java"
   }
+  ```
 
 
 2. **View All Subcategory**
@@ -138,7 +139,38 @@ To run this project locally, follow these steps:
    ```bash
    {
     "file": "<Excel File>"
+   }
+   ```
+
+2. **Add Question**
+
+   ```bash
+   POST /exam/addQuestion
+  ```
+   Request Body:
+   ```bash
+    {
+      "subCategory": {
+        "subCategoryID": 1,
+        "category": {
+          "categoryId": 1,
+          "categoryName": "Science",
+          "categoryDescription": "Topics related to scientific disciplines"
+        },
+        "subCategoryName": "Physics",
+        "subCategoryDis": "Branch of science concerned with the nature and properties of matter and energy"
+      },
+      "question": "What is the study of motion?",
+      "option1": "Biology",
+      "option2": "Physics",
+      "option3": "Chemistry",
+      "option4": "Mathematics",
+      "ans": "Physics",
+      "positiveMark": "1",
+      "negativeMark": "0.25"
   }
+  ```
+
 
 
   
