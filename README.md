@@ -121,6 +121,7 @@ To run this project locally, follow these steps:
 
   ```bash
   PUT /subCategory/updateSubCategory/21
+  ```
 
   
 
