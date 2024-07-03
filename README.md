@@ -95,12 +95,14 @@ To run this project locally, follow these steps:
 
    ```bash
    POST /subCategory/addSubcategory
+   ```
    Request Body:
    ```bash
    {
   "subCategoryName": "Physics",
   "subCategoryDis": "Branch of science concerned with the nature and properties of matter and energy"
   }
+  ```
 
 
 2. **View All Subcategory**
