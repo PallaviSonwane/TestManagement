@@ -4,7 +4,8 @@ This project is an Exam Management System developed using Spring Boot and Hibern
 
 ## Features
 
-- **Create MCQ Question:** Endpoint to create a new MCQ question.
+- **Category Management:
+    -** Add, view all, view by ID, update, and delete categories.
 - **Get All Questions:** Endpoint to fetch all existing MCQ questions.
 - **Update Question:** Endpoint to update an existing MCQ question by ID.
 - **Get Question by ID:** Endpoint to fetch a specific MCQ question by its ID.
