@@ -202,7 +202,7 @@ To run this project locally, follow these steps:
 
 To interact with the API endpoints directly from the documentation, you can use the Swagger UI.
 
-  https://your-api-url/swagger-ui.html
+  http://localhost:8080/swagger-ui/index.html
 
 
 ## Logging
