@@ -61,6 +61,7 @@ To run this project locally, follow these steps:
 
     ```bash
     POST /category/addCategory
+    Request Body:
     ```bash
     {
     "categoryName": "Science",
