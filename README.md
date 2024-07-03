@@ -109,11 +109,13 @@ To run this project locally, follow these steps:
 
   ```bash
   GET /subCategory/getSubCategory/16
+  ```
 
 4. **Delete Subcategory By ID:**
 
   ```bash
   DELETE /subCategory/deleteSubCategory/1
+  ```
 
 5. **Update Subcategory By ID:**
 
