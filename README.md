@@ -151,25 +151,24 @@ To run this project locally, follow these steps:
    ```bash
     {
       "subCategory": {
-        "subCategoryID": 1,
+        "subCategoryID": 16,
         "category": {
-          "categoryId": 1,
-          "categoryName": "Science",
-          "categoryDescription": "Topics related to scientific disciplines"
+          "categoryId": 2,
+          "categoryName": "Java",
+          "categoryDescription": "Core Java category"
         },
         "subCategoryName": "Physics",
         "subCategoryDis": "Branch of science concerned with the nature and properties of matter and energy"
       },
-      "question": "What is the study of motion?",
-      "option1": "Biology",
-      "option2": "Physics",
-      "option3": "Chemistry",
-      "option4": "Mathematics",
-      "ans": "Physics",
+      "question": "When does Exceptions in Java arises in code sequence?",
+      "option1": "Run Time",
+      "option2": "Compilation Time",
+      "option3": "Can Occur Any Time",
+      "option4": " None of the mentioned",
+      "ans": "Exceptions in Java are run-time errors.",
       "positiveMark": "1",
       "negativeMark": "0.25"
   }
-  ```
 
 3. **View All Questions**
 
