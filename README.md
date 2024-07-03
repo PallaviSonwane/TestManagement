@@ -67,6 +67,11 @@ To run this project locally, follow these steps:
     "categoryName": "Science",
     "categoryDescription": "Topics related to scientific disciplines"
     }
+2. **View All Categories:**
+
+   ```bash
+   GET /category/viewAllCategoryInfo  
+
 
 1. **Create MCQ Question:**
 
