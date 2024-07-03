@@ -88,6 +88,40 @@ To run this project locally, follow these steps:
 
 ### Subcategory Management
 
+1. **Add Subcategory**
+
+   ```bash
+   POST /subCategory/addSubcategory
+   Request Body:
+   ```bash
+   {
+  "subCategoryName": "Physics",
+  "subCategoryDis": "Branch of science concerned with the nature and properties of matter and energy"
+  }
+
+
+2. **View All Subcategory**
+
+   ```bash
+   GET /subCategory/getAllSubCategory
+
+3. **View Subcategory By Id**
+
+  ```bash
+  GET /subCategory/getSubCategory/16
+
+4. **Delete Subcategory By ID:**
+
+  ```bash
+  DELETE /subCategory/deleteSubCategory/1
+
+5. **Update Subcategory By ID:**
+
+  ```bash
+  PUT /subCategory/updateSubCategory/21
+
+  
+
 1. **Create MCQ Question:**
 
    ```bash
