@@ -19,6 +19,7 @@ This project is an Exam Management System developed using Spring Boot and Hibern
 
 - Java
 - Spring Boot
+- Apache POI
 - Spring Data JPA
 - Lombok
 - SLF4J (for logging)
