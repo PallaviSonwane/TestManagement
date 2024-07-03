@@ -102,7 +102,6 @@ To run this project locally, follow these steps:
   "subCategoryName": "Exception Handling",
   "subCategoryDis": "Exception Handling from Java"
   }
-  ```
 
 
 2. **View All Subcategory**
