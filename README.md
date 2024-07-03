@@ -95,13 +95,14 @@ To run this project locally, follow these steps:
 
    ```bash
    POST /subCategory/addSubcategory
-   
+   ```
    Request Body:
    ```bash
    {
     "subCategoryName": "Exception Handling",
     "subCategoryDis": "Exception Handling from Java"
     }
+   ```
   
 
 2. **View All Subcategory**
