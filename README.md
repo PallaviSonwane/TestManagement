@@ -1,6 +1,6 @@
 # TestManagement
 
-This project implements an API for managing multiple-choice questions (MCQs) using Spring Boot.
+This project is an Exam Management System developed using Spring Boot and Hibernate, designed to manage categories, subcategories, and exam questions.
 
 ## Features
 
