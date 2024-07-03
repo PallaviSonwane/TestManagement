@@ -14,7 +14,6 @@ This project is an Exam Management System developed using Spring Boot and Hibern
   - Upload questions from Excel.
   - Add, view all, view by ID, update, and delete exam questions.
 
----
 
 ## Technologies Used
 
