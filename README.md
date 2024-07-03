@@ -109,6 +109,7 @@ To run this project locally, follow these steps:
 
    ```bash
    GET /subCategory/getAllSubCategory
+  ```
 
 3. **View Subcategory By Id**
 
@@ -148,6 +149,7 @@ To run this project locally, follow these steps:
    POST /exam/addQuestion
   ```
    Request Body:
+
    ```bash
     {
       "subCategory": {
