@@ -65,6 +65,7 @@ To run this project locally, follow these steps:
     "categoryName": "Science",
     "categoryDescription": "Topics related to scientific disciplines"
     }
+    ```
     
 2. **View All Categories:**
 
