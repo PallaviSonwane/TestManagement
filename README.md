@@ -70,7 +70,23 @@ To run this project locally, follow these steps:
 2. **View All Categories:**
 
    ```bash
-   GET /category/viewAllCategoryInfo  
+   GET /category/viewAllCategoryInfo
+
+3. **View Category By ID:**
+
+   ```bash
+   GET /category/viewSingleCategory/4
+
+4. **Delete Category By ID:**
+
+   ```bash
+   DELETE /category/deleteCategoryById/1
+
+5. **Update Category By ID:**
+
+   ```bash
+   PUT /category/updateCategoryById/4
+
 
 
 1. **Create MCQ Question:**
