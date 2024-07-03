@@ -55,9 +55,7 @@ To run this project locally, follow these steps:
 
 ### Category Management
 
-- **Add Category:**
-
-1. **Create Category:**
+1. **Add Category:**
 
     ```bash
     POST /category/addCategory
