@@ -96,6 +96,7 @@ To run this project locally, follow these steps:
    ```bash
    POST /subCategory/addSubcategory
    ```
+   
    Request Body:
    ```bash
    {
@@ -169,6 +170,7 @@ To run this project locally, follow these steps:
       "positiveMark": "1",
       "negativeMark": "0.25"
   }
+
 
 3. **View All Questions**
 
