@@ -58,7 +58,7 @@ To run this project locally, follow these steps:
 1. **Add Category:**
 
     ```bash
-    POST /category/addCategory
+    POST /api/category
     ```
     Request Body:
     ```bash
@@ -71,22 +71,22 @@ To run this project locally, follow these steps:
 2. **View All Categories:**
 
    ```bash
-   GET /category/viewAllCategoryInfo
+   GET /api/category
 
 3. **View Category By ID:**
 
    ```bash
-   GET /category/viewSingleCategory/4
+   GET /api/category/4
 
 4. **Delete Category By ID:**
 
    ```bash
-   DELETE /category/deleteCategoryById/1
+   DELETE /api/category/1
 
 5. **Update Category By ID:**
 
    ```bash
-   PUT /category/updateCategoryById/4
+   PUT /api/category/4
 
 
 ### Subcategory Management
@@ -94,7 +94,7 @@ To run this project locally, follow these steps:
 1. **Add Subcategory**
 
    ```bash
-   POST /subCategory/addSubcategory
+   POST /api/subCategory
    ```
    Request Body:
    ```bash
@@ -108,25 +108,25 @@ To run this project locally, follow these steps:
 2. **View All Subcategory**
 
    ```bash
-   GET /subCategory/getAllSubCategory
+   GET /api/subCategory
    ```
 
 3. **View Subcategory By Id**
 
   ```bash
-  GET /subCategory/getSubCategory/16
+  GET /api/subCategory/16
   ```
 
 4. **Delete Subcategory By ID:**
 
   ```bash
-  DELETE /subCategory/deleteSubCategory/1
+  DELETE /api/subCategory/1
   ```
 
 5. **Update Subcategory By ID:**
 
   ```bash
-  PUT /subCategory/updateSubCategory/21
+  PUT /api/subCategory/21
   ```
 
 ### Exam Management
@@ -134,7 +134,7 @@ To run this project locally, follow these steps:
 1. **Upload Excel Data**
 
    ```bash
-   POST /exam/upload
+   POST /api/exam/upload
    ```
 
    ```bash
@@ -146,7 +146,7 @@ To run this project locally, follow these steps:
 2. **Add Question**
 
    ```bash
-   POST /exam/addQuestion
+   POST /api/exam
    ```
    
    Request Body:
@@ -176,25 +176,25 @@ To run this project locally, follow these steps:
 3. **View All Questions**
 
    ```bash
-   GET /exam/viewQuestion
+   GET /api/exam
    
 
 4. **View Question By ID:**
 
    ```bash
-   GET /exam/viewById/5
+   GET /api/exam/5
    ```
 
 5. **Delete Question By ID:**
 
     ```bash
-    DELETE /exam/deleteById/4
+    DELETE /api/exam/4
     ```
 
 6. **Update Question By ID:**
 
     ```bash
-    PUT /exam/updateById/6
+    PUT /api/exam/6
     ```
 
 
